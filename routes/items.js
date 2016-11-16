@@ -4,6 +4,7 @@ var db = require('./db');
 db.initDB();
 var USE_FASTCACHE = false;
 
+
 /*
  * To enable the load generator and 'improved' cache mechanism below:
  * 1. remove the 'res.json({"success": 0, "fail": 0, "time": 0});' line
